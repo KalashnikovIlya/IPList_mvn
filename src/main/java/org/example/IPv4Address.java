@@ -46,7 +46,7 @@ public class IPv4Address {
             }
         }
         this.decimalAddress = decimalAddress;
-    };
+    }
 
     private void getNormalAddress() {
         long integerFromDivision;

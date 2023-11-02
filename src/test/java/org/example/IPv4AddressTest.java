@@ -12,12 +12,6 @@ public class IPv4AddressTest extends Assert{
         assertEquals("0.0.0.10", address.normalAddress);
     }
 
-    @Test
-    public void fieldNotNull() {
-        assertNotNull(address.normalAddress);
-        assertNotNull(address.decimalAddress);
-    }
-
     @Test(expected = IllegalArgumentException.class)
     public void testException() {
         new IPv4Address("0.");

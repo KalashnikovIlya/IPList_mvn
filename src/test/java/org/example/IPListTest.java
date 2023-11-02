@@ -6,8 +6,6 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static org.junit.Assert.*;
-
 public class IPListTest extends Assert {
 
     static IPList ipList = new IPList(1,10);
